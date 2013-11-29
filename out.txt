@@ -1,0 +1,96 @@
+extern void trap_0();
+SETGATE(idt[0], 0, GD_KT, trap_0, 0);
+extern void trap_1();
+SETGATE(idt[1], 0, GD_KT, trap_1, 0);
+extern void trap_2();
+SETGATE(idt[2], 0, GD_KT, trap_2, 0);
+extern void trap_3();
+SETGATE(idt[3], 0, GD_KT, trap_3, 0);
+extern void trap_4();
+SETGATE(idt[4], 0, GD_KT, trap_4, 0);
+extern void trap_5();
+SETGATE(idt[5], 0, GD_KT, trap_5, 0);
+extern void trap_6();
+SETGATE(idt[6], 0, GD_KT, trap_6, 0);
+extern void trap_7();
+SETGATE(idt[7], 0, GD_KT, trap_7, 0);
+extern void trap_8();
+SETGATE(idt[8], 0, GD_KT, trap_8, 0);
+extern void trap_9();
+SETGATE(idt[9], 0, GD_KT, trap_9, 0);
+extern void trap_10();
+SETGATE(idt[10], 0, GD_KT, trap_10, 0);
+extern void trap_11();
+SETGATE(idt[11], 0, GD_KT, trap_11, 0);
+extern void trap_12();
+SETGATE(idt[12], 0, GD_KT, trap_12, 0);
+extern void trap_13();
+SETGATE(idt[13], 0, GD_KT, trap_13, 0);
+extern void trap_14();
+SETGATE(idt[14], 0, GD_KT, trap_14, 0);
+extern void trap_15();
+SETGATE(idt[15], 0, GD_KT, trap_15, 0);
+extern void trap_16();
+SETGATE(idt[16], 0, GD_KT, trap_16, 0);
+extern void trap_17();
+SETGATE(idt[17], 0, GD_KT, trap_17, 0);
+extern void trap_18();
+SETGATE(idt[18], 0, GD_KT, trap_18, 0);
+extern void trap_19();
+SETGATE(idt[19], 0, GD_KT, trap_19, 0);
+extern void trap_20();
+SETGATE(idt[20], 0, GD_KT, trap_20, 0);
+extern void trap_21();
+SETGATE(idt[21], 0, GD_KT, trap_21, 0);
+extern void trap_22();
+SETGATE(idt[22], 0, GD_KT, trap_22, 0);
+extern void trap_23();
+SETGATE(idt[23], 0, GD_KT, trap_23, 0);
+extern void trap_24();
+SETGATE(idt[24], 0, GD_KT, trap_24, 0);
+extern void trap_25();
+SETGATE(idt[25], 0, GD_KT, trap_25, 0);
+extern void trap_26();
+SETGATE(idt[26], 0, GD_KT, trap_26, 0);
+extern void trap_27();
+SETGATE(idt[27], 0, GD_KT, trap_27, 0);
+extern void trap_28();
+SETGATE(idt[28], 0, GD_KT, trap_28, 0);
+extern void trap_29();
+SETGATE(idt[29], 0, GD_KT, trap_29, 0);
+extern void trap_30();
+SETGATE(idt[30], 0, GD_KT, trap_30, 0);
+extern void trap_31();
+SETGATE(idt[31], 0, GD_KT, trap_31, 0);
+TRAPHANDLER_NOEC(trap_0, 0)
+TRAPHANDLER_NOEC(trap_1, 1)
+TRAPHANDLER_NOEC(trap_2, 2)
+TRAPHANDLER_NOEC(trap_3, 3)
+TRAPHANDLER_NOEC(trap_4, 4)
+TRAPHANDLER_NOEC(trap_5, 5)
+TRAPHANDLER_NOEC(trap_6, 6)
+TRAPHANDLER_NOEC(trap_7, 7)
+TRAPHANDLER_NOEC(trap_8, 8)
+TRAPHANDLER_NOEC(trap_9, 9)
+TRAPHANDLER_NOEC(trap_10, 10)
+TRAPHANDLER_NOEC(trap_11, 11)
+TRAPHANDLER_NOEC(trap_12, 12)
+TRAPHANDLER_NOEC(trap_13, 13)
+TRAPHANDLER_NOEC(trap_14, 14)
+TRAPHANDLER_NOEC(trap_15, 15)
+TRAPHANDLER_NOEC(trap_16, 16)
+TRAPHANDLER_NOEC(trap_17, 17)
+TRAPHANDLER_NOEC(trap_18, 18)
+TRAPHANDLER_NOEC(trap_19, 19)
+TRAPHANDLER_NOEC(trap_20, 20)
+TRAPHANDLER_NOEC(trap_21, 21)
+TRAPHANDLER_NOEC(trap_22, 22)
+TRAPHANDLER_NOEC(trap_23, 23)
+TRAPHANDLER_NOEC(trap_24, 24)
+TRAPHANDLER_NOEC(trap_25, 25)
+TRAPHANDLER_NOEC(trap_26, 26)
+TRAPHANDLER_NOEC(trap_27, 27)
+TRAPHANDLER_NOEC(trap_28, 28)
+TRAPHANDLER_NOEC(trap_29, 29)
+TRAPHANDLER_NOEC(trap_30, 30)
+TRAPHANDLER_NOEC(trap_31, 31)
